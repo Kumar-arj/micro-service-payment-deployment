@@ -20,7 +20,7 @@ ingress:
 payment:
     image:
         repo: kumararj/sock-shop-micro-services-payment
-        tag: 0.4.3
+        tag: latest
     declinePaymentsOverAmount: 200
     containerPort: 8080
     resources:
